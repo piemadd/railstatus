@@ -81,7 +81,9 @@ const Station = () => {
             .map((destination) => (
               <div key={destination} className='trains'>
                 <h3 className='destination'>{destination}</h3>
-                {trainDestinations[destination].map((train) => {
+                {trainDestinations[destination].sort((a, b) => {
+                  return a.arr - b.arr
+                }).map((train) => {
                   const arr = train.arr * 1000;
 
                   return (
