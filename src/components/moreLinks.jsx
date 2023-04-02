@@ -14,6 +14,9 @@ const MoreLinks = () => {
         <p>
           <Link to='/settings'>Settings</Link>
         </p>
+        <p>
+          <Link to='/privacy'>Privacy Policy</Link>
+        </p>
       </div>
     </>
   );

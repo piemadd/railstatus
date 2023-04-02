@@ -44,17 +44,17 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <>About Page</>,
+    element: <>Placeholder About Page</>,
     errorElement: <ErrorPage />,
   },
   {
     path: "/settings",
-    element: <>Settings Page</>,
+    element: <>Placeholder Settings Page</>,
     errorElement: <ErrorPage />,
   },
   {
     path: "/privacy",
-    element: <>Privacy Policy Page</>,
+    element: <>Placeholder Privacy Policy Page</>,
     errorElement: <ErrorPage />,
   },
 ]);
