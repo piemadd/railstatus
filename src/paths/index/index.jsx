@@ -15,7 +15,8 @@ const Index = () => {
     <>
       <h1>Railstat.us</h1>
       <p>Open source, free, and easy transit tracker.</p>
-      <p>Beta 0.0.1</p>
+      <p>v0.0.2 Beta</p>
+      <p>Heads up: this shit will probably break!</p>
       <h2
         style={{
           marginTop: "4px",
